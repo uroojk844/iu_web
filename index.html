@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Integral University</title>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ'
+        crossorigin='anonymous'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/w3.css">
+    <style>
+        body{
+          background-image: url("Images/1.png");
+          background-attachment: fixed;
+      }
+    </style>
+</head>
+
+<body>
+    <div id="nb">
+        <nav class="w3-bar">
+            <div class="w3-button w3-hide-large w3-text-white w3-hover-blue w3-left" onclick="show_item()"><i class="fa fa-bars"
+                    style="font-size: 16px"></i></div>
+            <a href="studentlogin.html">
+                <div class="w3-button w3-text-white w3-border w3-border-blue w3-hover-blue w3-round-xxlarge w3-hover-text-white w3-right"><i
+                        class="fas fa-user-graduate"></i>&nbsp; Student
+                    Portal</div>
+            </a>
+            <a href="index.html">
+                <div class="w3-hide-small w3-mobile w3-button w3-hover-blue w3-text-white w3-blue w3-bar-item w3-round-xxlarge"><i
+                        class="fa fa-home" style="font-size: 18px;"></i> Home</div>
+            </a>
+            <a href="courses.htm">
+                <div class="w3-hide-small w3-mobile w3-button w3-text-white w3-bar-item w3-hover-blue w3-round-xxlarge w3-hover-text-white"><i
+                        class="fas fa-book"></i>&nbsp; Courses</div>
+            </a>
+            <a href="admission.htm">
+                <div class="w3-hide-small w3-mobile w3-button w3-text-white w3-bar-item w3-hover-blue w3-round-xxlarge w3-hover-text-white"><i
+                        class="fas fa-user-plus"></i>&nbsp; Admissions</div>
+            </a>
+            <a href="contact.html">
+                <div class="w3-hide-small w3-hide-medium w3-mobile w3-button w3-text-white w3-bar-item w3-hover-blue w3-round-xxlarge w3-hover-text-white"><i
+                        class="fas fa-phone"></i>&nbsp; Contact</div>
+            </a>
+            <a href="about.htm">
+                <div class="w3-hide-small w3-hide-medium w3-mobile w3-button w3-text-white w3-bar-item w3-hover-blue w3-round-xxlarge w3-hover-text-white"><i
+                        class="fas fa-user-alt"></i>&nbsp; About</div>
+            </a>
+            <input type="text" placeholder="&#x1F50D; Find courses" class="w3-hide-small w3-hide-medium w3-bar-item w3-input w3-transparent w3-text-white w3-round-xxlarge w3-border-0">
+        </nav>
+    </div>
+    <div id="main">
+        <p class="ttl">INTEGRAL UNIVERSITY</p>
+        <img id="inspiring" src="Images/IU_InspiringExcellence.png"><br>
+
+        <div class="w3-white w3-padding w3-right" id="join" onclick="show('form')">
+            Join Integral</div>
+
+        <form class="w3-container w3-padding w3-white w3-animate-right w3-round hide" id="form" onsubmit="success()">
+
+            <h3 class="w3-center w3-margin-bottom"><b>Join integral</b></h3>
+
+            <label class="w3-text-blue">Name</label>
+            <input id="name" class="w3-input w3-border" type="text" required><br>
+
+            <label class="w3-text-blue">Email</label>
+            <input class="w3-input w3-border" type="email" required><br>
+
+            <label class="w3-text-blue">Mobile</label>
+            <input class="w3-input w3-border" type="tel" required>
+
+            <input type="submit" class="w3-btn w3-blue w3-margin-top w3-margin-bottom">
+
+        </form>
+
+        <a href="infrastructure.htm">
+            <div id="infra" class="infra w3-button w3-border w3-border-white w3-text-white
+    ">Our Infrastructure</div>
+        </a>
+
+        <a href="https://www.google.com/maps/@26.958454,80.999231,3a,75y,2.47h,86.79t/data=!3m6!1e1!3m4!1sAF1QipOnLDAbBWzCHCZKR4LEWWUwOSyM_cqkowjOBBSM!2e10!7i10000!8i5000"
+            target="_blank">
+            <div id="infra1" class="infra w3-button w3-border w3-border-white w3-text-white
+    ">Virtual
+                Visit</div>
+        </a>
+
+        <div id="social">
+            <div class="social_icon icon1 w3-red">
+                <i class="fa fa-phone fa-fw w3-padding-16 w3-padding"><a href="tel:919335177775" class="w3-large w3-padding">+919335177775</a></i>
+            </div>
+            <div class="social_icon w3-blue">
+                <i class="fa fa-globe fa-fw w3-padding-16 w3-padding"></i>
+                <i class="fa fa-facebook-official fa-fw w3-padding-16 w3-padding"></i>
+                <i class="fa fa-instagram fa-fw w3-padding-16 w3-padding"></i>
+                <i class="fa fa-twitter fa-fw w3-padding-16 w3-padding"></i>
+                <i class="fa fa-envelope fa-fw w3-padding-16 w3-padding"></i>
+            </div>
+            <div class="social_icon w3-green">
+                <i class="fa fa-whatsapp fa-fw w3-padding-16 w3-padding"><a href="https://api.whatsapp.com/send?phone=919335177775"
+                        target="_blank" class="w3-large w3-padding">+919335177775</a></i>
+            </div>
+        </div>
+
+    </div>
+    <script src="javascript/homejs.js"></script>
+</body>
+
+</html>

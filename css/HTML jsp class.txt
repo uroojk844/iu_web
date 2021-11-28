@@ -1,0 +1,20 @@
+JSP tags:
+
+1. Script tag : use to write java codes and also for variable declaration
+2. Expression tag : use to print something or evaluate expressions
+3. Declaration tag : use for variable declaration and method declaration
+4. Comment tag : use for making comments
+5. Action Tag :
+	1. include		2. forword		3. plugins
+	
+include uses : 
+	<jsp: include page="pagename.html">
+
+forward uses:
+	<jsp: forward page="database.jsp">
+	
+plugins uses:
+	<jsp:plugin type="applet or bean" code="name.class" codebase="dir/">
+	
+for response from form:
+	response.getParameter("input name");

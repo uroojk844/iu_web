@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/stdlog.css">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ'
+        crossorigin='anonymous'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+        background-image: url("Images/admini_block.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="opac" class="w3-display-container"></div>
+
+    <a href="index.html">
+        <div class="w3-button w3-hover-red w3-text-white w3-xlarge w3-display-topright">&times;</div>
+    </a>
+
+    <div id="container" class="w3-card-4">
+        <i class="fa fa-arrow-left w3-margin-right w3-hover-gray w3-padding w3-round-xxlarge" id="bck" onclick="back_to_log()"
+            style="display:none"></i>
+        <i class="fa fa-user-graduate w3-margin-right"></i>
+        <label id="std_port" class="w3-mobile">Student Portal</label>
+        <br>
+        <form>
+            <h3 style="color: #404040;">Sign in</h3>
+            <div class="one" style="overflow: hidden">
+                <input id="first" class="w3-border-bottom w3-border-blue enrollment w3-animate-left" placeholder="Enrollment number"
+                    type="text" onchange="btn_stat()" required>
+            </div>
+            <div class="two" style="overflow: hidden">
+                <input class="w3-border-bottom w3-border-blue pass w3-animate-right" placeholder="Password" type="password"
+                    required>
+            </div>
+            <input type="submit" id="sb" class="w3-btn w3-blue w3-right">
+        </form>
+        <button id="next" class="w3-btn w3-blue w3-right" onclick="validation()">Continue</button>
+    </div>
+    <script src="javascript/homejs.js"></script>
+</body>
+
+</html>

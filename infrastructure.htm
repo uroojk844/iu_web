@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ'
+        crossorigin='anonymous'>
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/infra_css.css">
+</head>
+
+<body onload="animate()">
+    <div class="full_view w3-display-container w3-hide-small w3-hide-medium"></div>
+    <a href="index.html">
+        <div class="w3-button w3-text-gray w3-xlarge w3-display-topright w3-hover-red">&times;</div>
+    </a>
+
+    <div class="w3-text-gray w3-hide-small w3-hide-medium w3-button w3-display-left w3-xxxlarge" onclick="plusDivs(-1)">❮</div>
+    <div class="w3-text-gray w3-hide-small w3-hide-medium w3-button w3-display-right w3-xxxlarge" onclick="plusDivs(1)">❯</div>
+
+    <div class="container w3-hide-large">
+
+        <div class="w3-white w3-mobile card w3-animate-right">
+            <img src="Images/Academic_block.jpg" onclick="onClick(this)" class="image w3-opacity w3-hover-opacity-off"
+                alt="">
+            <div class="w3-padding content">
+                <h4>Academic Block</h4>
+            </div>
+        </div>
+
+        <div class="w3-white w3-mobile card w3-animate-right">
+            <img src="Images/admini_block.jpg" onclick="onClick(this)" class="image w3-opacity w3-hover-opacity-off"
+                alt="">
+            <div class="w3-padding content">
+                <h4>Administrative Block</h4>
+            </div>
+        </div>
+
+        <div class="w3-white w3-mobile card w3-animate-right">
+            <img src="Images/Polytechnic.jpg" onclick="onClick(this)" class="image w3-opacity w3-hover-opacity-off" alt="">
+            <div class="w3-padding content">
+                <h4>University Polytechnic</h4>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container w3-hide-large">
+
+        <div class="w3-white w3-mobile card w3-animate-right">
+            <img src="Images/Medical.jpg" onclick="onClick(this)" class="image w3-opacity w3-hover-opacity-off" alt="">
+            <div class="w3-padding content">
+                <h4>Medical Block</h4>
+            </div>
+        </div>
+
+        <div class="w3-white w3-mobile card w3-animate-right">
+            <img src="Images/Pharmacy.jpg" onclick="onClick(this)" class="image w3-opacity w3-hover-opacity-off" alt="">
+            <div class="w3-padding content">
+                <h4>Pharmacy Block</h4>
+            </div>
+        </div>
+
+        <div class="w3-white w3-mobile card w3-animate-right">
+            <img src="Images/Civil_block.jpg" onclick="onClick(this)" class="image w3-opacity w3-hover-opacity-off" alt="">
+            <div class="w3-padding content">
+                <h4>Civil Block</h4>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container w3-hide-large">
+
+        <div class="w3-white w3-mobile card w3-animate-right">
+            <img src="Images/Library.jpg" onclick="onClick(this)" class="image w3-opacity w3-hover-opacity-off" alt="">
+            <div class="w3-padding content">
+                <h4>Central Library</h4>
+            </div>
+        </div>
+
+        <div class="w3-white w3-mobile card w3-animate-right">
+            <img src="Images/boys_hostel%20(2).jpg" onclick="onClick(this)" class="image w3-opacity w3-hover-opacity-off"
+                alt="">
+            <div class="w3-padding content">
+                <h4>Boys Hostel</h4>
+            </div>
+        </div>
+
+        <div class="w3-white w3-mobile card w3-animate-right">
+            <img src="Images/Girls_hostel.jpg" onclick="onClick(this)" class="image w3-opacity w3-hover-opacity-off"
+                alt="">
+            <div class="w3-padding content">
+                <h4>Girls_hostel</h4>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+        <div class="w3-modal-content w3-animate-zoom">
+            <img id="img01" style="width: 100%;">
+        </div>
+    </div>
+
+    <script src="javascript/homejs.js"></script>
+</body>
+
+</html>

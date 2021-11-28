@@ -1,0 +1,50 @@
+* {
+    font-family: 'Ubuntu';
+}
+
+.full_view {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0)
+}
+
+.container {
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 14vh;
+}
+
+ .container .card {
+    width: 30%;
+    float: left;
+    margin: 1.6%;
+    border-radius: 5px;
+    overflow: hidden;
+    display: none;
+}
+
+.w3-modal-content{
+    width: 60%;
+}
+
+.card .image {
+    height: 400px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px){
+    .container .card{
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    }
+
+    .container{
+        position: relative;
+    }
+
+    .w3-modal-content{
+        width:90%;
+        top:10%;
+    }
+}

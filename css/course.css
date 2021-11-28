@@ -1,0 +1,27 @@
+.courseContainer{
+    position: relative;
+    top: 86px;
+    overflow: hidden;
+}
+
+.courseContainer .w3-sidebar{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: dodgerblue;
+}
+
+.courseContainer .w3-sidebar{
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+

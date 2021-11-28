@@ -1,0 +1,105 @@
+* {
+    font-family: 'Ubuntu';
+}
+
+body {
+    margin: 0;
+    background-size: cover;
+}
+
+.cont {
+    position: relative;
+    top: 10vh;
+    width: 30%;
+    background-color: white;
+    float: left;
+    margin: 1.6%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+    overflow: hidden;
+    height: 170px;
+}
+
+#nb {
+    width: 95%;
+    position: absolute;
+    left: 2.5%;
+    top: 2.5%;
+    z-index: 99;
+}
+
+#card-container {
+    width: 80%;
+    position: relative;
+    left: 10%;
+    top: 5vh;
+}
+
+.map {
+    float: left;
+    position: relative;
+    top: 10vh;
+    width: 96.5%;
+    left: 1.6%;
+}
+
+a {
+    text-decoration: none
+}
+
+.w3-bar-item {
+    margin-top: 16px;
+}
+
+#nb .w3-mobile {
+    margin-left: 16px;
+}
+
+.w3-bar .w3-right {
+    margin-top: 16px;
+}
+
+.content ul{
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .w3-bar {
+        margin: 0;
+    }
+
+    #nb {
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: #2196F3 !important;
+    }
+
+    .w3-bar-item {
+        margin-top: 0;
+        text-align: left;
+    }
+
+    .map {
+        top: 0px;
+    }
+
+    .cont {
+        top: 0;
+        height: 200px;
+    }
+
+    #nb .w3-mobile {
+        text-align: left;
+        margin-left: 0;
+    }
+
+    .w3-bar .w3-right {
+        margin-top: 0;
+    }
+
+    .content ul>li{
+        font-size: 13px;
+    }
+}

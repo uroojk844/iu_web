@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Integral University</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+        integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/course.css">
+    <style>
+        body {
+            background-image: url("Images/1.png");
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nb">
+        <nav class="w3-bar">
+            <div class="w3-button w3-hide-large w3-text-white w3-hover-blue w3-left" onclick="show_item()"><i
+                    class="fa fa-bars" style="font-size: 16px"></i></div>
+            <a href="studentlogin.html">
+                <div
+                    class="w3-button w3-text-white w3-border w3-border-blue w3-hover-blue w3-round-xxlarge w3-hover-text-white w3-right">
+                    <i class="fas fa-user-graduate"></i>&nbsp; Student
+                    Portal</div>
+            </a>
+            <a href="index.html">
+                <div
+                    class="w3-hide-small  w3-mobile w3-button w3-text-white w3-bar-item  w3-hover-blue w3-round-xxlarge w3-hover-text-white">
+                    <i class="fa fa-home"></i> Home</div>
+            </a>
+            <a href="courses.htm">
+                <div
+                    class="w3-hide-small w3-mobile w3-button w3-hover-blue w3-text-white w3-blue w3-bar-item w3-round-xxlarge">
+                    <i class="fas fa-book"></i>&nbsp; Courses</div>
+            </a>
+            <a href="admission.htm">
+                <div
+                    class="w3-hide-small w3-mobile w3-button w3-text-white w3-bar-item w3-hover-blue w3-round-xxlarge w3-hover-text-white">
+                    <i class="fas fa-user-plus"></i>&nbsp; Admissions</div>
+            </a>
+            <a href="contact.html">
+                <div
+                    class="w3-hide-small w3-hide-medium w3-mobile w3-button w3-text-white w3-bar-item w3-hover-blue w3-round-xxlarge w3-hover-text-white">
+                    <i class="fas fa-phone"></i>&nbsp; Contact</div>
+            </a>
+            <a href="about.htm">
+                <div
+                    class="w3-hide-small w3-hide-medium w3-mobile w3-button w3-text-white w3-bar-item w3-hover-blue w3-round-xxlarge w3-hover-text-white">
+                    <i class="fas fa-user-alt"></i>&nbsp; About</div>
+            </a>
+        </nav>
+    </div>
+
+    <div id="main">
+
+        <div class="courseContainer w3-white w3-card w3-round">
+            <div class="w3-sidebar w3-bar-block" style="width:100px;height: 520px;z-index: 1;">
+                <button class="w3-bar-item w3-button tablink w3-blue" onclick="openLink(event, 'btech')">B. Tech</button>
+                <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'mba')">M. B. A.</button>
+                <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'bca')">B. C. A.</button>
+                <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'bsc')">B. Sc.</button>
+                <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'be')">B. E.</button>
+                <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'bba')">B. B .A.</button>
+            </div>
+
+            <div style="margin-left:100px">
+                
+                <div id="btech" class="w3-container city w3-animate-left" style="height: 520px;">
+                    <h2>Batchelor in Technology</h2>
+                    <ul>
+                        <a href="#">
+                            <li>B. Tech(Computer Science & Engineering)</li>
+                        </a>
+                        <a href="#">
+                            <li>B. Tech(Automobile Engineering)</li>
+                        </a>
+                        <a href="#">
+                            <li>B. Tech(Electronics & Communication Engineering)</li>
+                        </a>
+                        <a href="#">
+                            <li>B. Tech(Electrical Engineering)</li>
+                        </a>
+                        <a href="#">
+                            <li>B. Tech(Mechanical Engineering)</li>
+                        </a>
+                        <a href="#">
+                            <li>B. Tech(Civil Engineering)</li>
+                        </a>
+                    </ul>
+                </div>
+
+                <div id="mba" class="w3-container city w3-animate-left" style="display:none;height: 520px;">
+                    <h2>Master in Bussiness Administration</h2>
+                    <ul>
+                        <a href="#">
+                            <li>M. B. A.(Marketing)</li>
+                        </a>
+                        <a href="#">
+                            <li>M. B. A.(Finance)</li>
+                        </a>
+                        <a href="#">
+                            <li>M. B. A.(Hotel Management)</li>
+                        </a>
+                        <a href="#">
+                            <li>M. B. A.(Tourist Management)</li>
+                        </a>
+                        <a href="#">
+                            <li>M. B. A.(Supplu chain management & logistics)</li>
+                        </a>
+                        <a href="#">
+                            <li>M. B. A.(Health Management)</li>
+                        </a>
+                    </ul>
+                </div>
+
+                <div id="bca" class="w3-container city w3-animate-left" style="display:none;height: 520px;">
+                    <h2>Batchelor in Computer Application</h2>
+                    <ul>
+                        <a href="#">
+                            <li>B. C. A.</li>
+                        </a>
+                    </ul>
+                </div>
+
+                <div id="bsc" class="w3-container city w3-animate-left" style="display:none;height: 520px;">
+                    <h2>Batchelor of Science</h2>
+                    <ul>
+                        <a href="#">
+                            <li>B. Sc.(Agriculture)</li>
+                        </a>
+                        <a href="#">
+                            <li>B. Sc.(Biochemistry)</li>
+                        </a>
+                        <a href="#">
+                            <li>B. Sc.(Biotechnology)</li>
+                        </a>
+                        <a href="#">
+                            <li>B. Sc.(Home Science)</li>
+                        </a>
+                        <a href="#">
+                            <li>B. Sc.(Industrial Chemistry)</li>
+                        </a>
+                        <a href="#">
+                            <li>B. Sc.(Life Science)</li>
+                        </a>
+                    </ul>
+                </div>
+
+                <div id="be" class="w3-container city w3-animate-left" style="display:none;height: 520px;">
+                    <h2>Batchelor of Engineering</h2>
+                    <ul>
+                        <a href="#">
+                            <li>B. E.(Mechanical Engineering)</li>
+                        </a>
+                        <a href="#">
+                            <li>B. E.(Civil Engineering)</li>
+                        </a>
+                    </ul>
+                </div>
+
+                <div id="bba" class="w3-container city w3-animate-left" style="display:none;height: 520px;">
+                    <h2>Batchelor in Bussiness Administration</h2>
+                    <ul>
+                        <a href="#">
+                            <li>B. B. A.</li>
+                        </a>
+                        <a href="#">
+                            <li>B. B. A.(Finance Services)</li>
+                        </a>
+                        <a href="#">
+                            <li>B. B. A.(Tourist Management)</li>
+                        </a>
+                        <a href="#">
+                            <li>B. B. A.(Supplu chain management & logistics)</li>
+                        </a>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="javascript/homejs.js"></script>
+    <script>
+        function openLink(evt, animName) {
+            var i, x, tablinks;
+            x = document.getElementsByClassName("city");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < x.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" w3-blue", "");
+            }
+            document.getElementById(animName).style.display = "block";
+            evt.currentTarget.className += " w3-blue";
+        }
+    </script>
+</body>
+
+</html>

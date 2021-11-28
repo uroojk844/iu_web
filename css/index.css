@@ -1,0 +1,153 @@
+* {
+    font-family: 'Ubuntu';
+}
+
+body {
+    margin: 0px;
+    background-color: white;
+    background-size: cover;
+}
+
+.w3-button {
+    transition: 0.5s;
+}
+
+.ttl {
+    font-size: 5vw;
+    color: white;
+    margin-left: 16px;
+    position: relative;
+    top: 80px;
+}
+
+#main {
+    width: 95%;
+    position: absolute;
+    left: 2.5%;
+    top: 2.5%;
+}
+
+#inspiring {
+    width: 25vw;
+    margin-left: 16px;
+    margin-top: 20px;
+}
+
+.infra {
+    position: relative;
+    top: 70px;
+    left: 16px;
+    font-size: 18px;
+}
+
+#infra{
+    margin-right: 16px;
+}
+
+#join {
+    transform: rotate(-90deg);
+    position: fixed;
+    right: -58px;
+    top: 300px;
+    font-size: 24px;
+}
+
+#form {
+    position: absolute;
+    right: 5%;
+    top: 35%;
+    width: 25%;
+    box-shadow: 0 8px 16px 0 black;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+#social {
+    position: fixed;
+    bottom: 50px;
+    right: -150px;
+    width: 50px;
+}
+
+.social_icon {
+    width: 200px;
+    float: right;
+    font-size: 24px;
+}
+
+.social_icon:hover {
+    transition: .5s;
+    width: 350px;
+}
+
+#search {
+    position: relative;
+    top:9px;
+    width: 150px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-size: 12px;
+    background-position: 7px 11px;
+    background-repeat: no-repeat;
+    padding: 6px 25px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+#search:focus {
+    width: 100%;
+}
+
+
+@media only screen and (max-width:768px){
+    .ttl{
+        top: 5px;
+        font-size: 8vw;
+    }
+    #inspiring{
+        position: relative;
+        top: -40px;
+        width: 50vw;
+    }
+
+    #infra, #infra1{
+        position: relative;
+        top:0px;
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+    
+    #join{
+        display: none;
+    }
+
+    #form{
+        display: block;
+        width: 90%;
+        position: relative;
+        left: 5%;
+        top: -20px;
+    }
+
+    #form:hover{
+        z-index: 1;
+    }
+    .social_icon{
+        font-size: 16px;
+        position: relative;
+        right: -35px;
+        bottom: 50px;
+    }
+
+    .social_icon:hover{
+        right:-10px;
+    }
+}
